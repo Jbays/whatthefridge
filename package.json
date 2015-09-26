@@ -8,8 +8,8 @@
     "npm":"2.1.x"
   },
   "postinstall":{
-    "start": "node server.js",
-    "postinstall": "./node_modules/.bin/bower install"
+    // "start": "node server.js",
+    "postinstall": "bower install"
   },
   "dependencies": {
     "bcrypt-node": "^0.1.0",
