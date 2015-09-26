@@ -11,6 +11,8 @@
     "postinstall": "bower install"
   },
   "dependencies": {
+    "angular": "^1.4.5",
+    "angular-route": "^1.4.5",
     "bcrypt-node": "^0.1.0",
     "body-parser": "^1.14.0",
     "bower": "^1.5.2",
