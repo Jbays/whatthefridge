@@ -8,6 +8,7 @@
     "npm":"2.1.x"
   },
   "scripts":{
+    "test": "mocha specs/server",
     "postinstall": "bower install"
   },
   "dependencies": {
@@ -34,9 +35,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gigapath/whatthefridge.git"
-  },
-  "scripts": {
-    "test": "mocha specs/server"
   },
   "author": "",
   "license": "ISC",
